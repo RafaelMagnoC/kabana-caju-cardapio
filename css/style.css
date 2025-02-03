@@ -14,16 +14,8 @@
     --primary-font: "Trebuchet MS"
 }
 
-body{
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-}
-
-
 #app{
     width: 100vw;
-    height: 100vh;
     background-image: url("../images/background-1.jpg");
     background-position: center;
     background-size: cover;
@@ -32,7 +24,7 @@ body{
     position: relative;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 150px 1fr 150px;
+    grid-template-rows: 150px 1fr 100px;
     grid-template-areas: 
     "header"
     "main"
@@ -54,15 +46,16 @@ main{
 }
 
 footer{
-    background-image: url("../images/camarao-empanado.png");
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: top right;
-    grid-area: footer;
+    display: flex;
+    justify-content: end;
     position: relative;
-    bottom: 85px;
-    right: 0px;
-    z-index: 2;
+}
+
+footer > img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: -40px;
 }
 
 .center{
