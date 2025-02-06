@@ -9,3 +9,15 @@ function showDetails(descricao, imagemUrl) {
     var modal = new bootstrap.Modal(document.getElementById('modalDescricao'));
     modal.show();
 }
+
+
+
+function getCategorySelect(){
+    const select = document.querySelector("select")
+    if(select.value === 'bebidas'){
+        window.location.pathname = '/pages/bebidas.html'
+    }
+    else{
+        window.location.pathname = '/index.html'
+    }
+}

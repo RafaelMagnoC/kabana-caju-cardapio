@@ -16,7 +16,12 @@
         <main>
             <section class="title center">
                 <h1 class="display-1 cardapio-title">Cardápio</h1>
-                <h3>Petiscos</h3>
+                <div class="sub-titulo">
+                    <select name="selecione a categoria" title="selecione a categoria" onchange="getCategorySelect()">
+                        <option selected>Petiscos</option>
+                        <option value="bebidas">Bebidas</option>
+                    </select>
+                </div>                
             </section>
             <section class="conteudo-cardapio">
                 <div class="descricao">
