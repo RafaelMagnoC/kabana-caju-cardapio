@@ -18,6 +18,6 @@ function getCategorySelect(){
        window.location.href = 'https://rafaelmagnoc.github.io/kabana-caju-cardapio/'
     }    
     else{
-      window.location.href = 'https://github.com/RafaelMagnoC/kabana-caju-cardapio-bebidas'
+      window.location.href = 'https://rafaelmagnoc.github.io/kabana-caju-cardapio-bebidas/'
     }
 }
