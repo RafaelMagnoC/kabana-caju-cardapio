@@ -18,7 +18,7 @@ function getCategorySelect(){
        window.location.href = 'https://rafaelmagnoc.github.io/kabana-caju-cardapio/'
     }
     
-    else if(select.value === 'petiscos'){
+    else if(select.value === 'bebidas'){
        window.location.href = 'https://github.com/RafaelMagnoC/kabana-caju-cardapio-bebidas'
     }
     else{
