@@ -14,14 +14,14 @@ function showDetails(descricao, imagemUrl) {
 
 function getCategorySelect(){
     const select = document.querySelector("select")
-    if(select.value === 'bebidas'){
-        window.location.href = 'https://github.com/RafaelMagnoC/kabana-caju-cardapio-bebidas'
+    if(select.value === 'petiscos'){
+       window.location.href = 'https://rafaelmagnoc.github.io/kabana-caju-cardapio/'
     }
     
     else if(select.value === 'petiscos'){
-       window.location.href = 'https://rafaelmagnoc.github.io/kabana-caju-cardapio/'
+       window.location.href = 'https://github.com/RafaelMagnoC/kabana-caju-cardapio-bebidas'
     }
     else{
-      window.location.href = 'https://github.com/RafaelMagnoC/kabana-caju-cardapio-bebidas'
+      window.location.href = 'https://rafaelmagnoc.github.io/kabana-caju-cardapio/'
     }
 }
